@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.7)),
+        url(https://avatars.mds.yandex.net/i?id=2a0000019b23bd2159062e29c004dfbc388d-1663671-fast-images&n=13);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 180px;
+    cursor: pointer;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+ul li:hover {
+    transform: scale(1.05);
+}
+
+ul li a:hover {
+    color: aqua;
+}
+
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.content h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+
+.btn {
+    width: 200px;
+    padding: 15px 0;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    cursor: pointer;
+    transition: 0.4s;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    border-color: aqua;
+    transform: scale(1.1);
+}
+
+
+.card-section {
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.7)),
+        url(https://avatars.mds.yandex.net/i?id=a880d6a3c3207ab12e74b58a273baa5514b83ea1-5436731-images-thumbs&n=13);
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    width: 300px;
+    height: 500px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-align: center;
+    transition: 0.5s;
+  
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.7)),
+        url(https://avatars.mds.yandex.net/i?id=98a175ea2c77e3458169cfebac0f52e12e663acf-5221784-images-thumbs&n=13);
+    background-size: cover;
+    background-position: center;
+margin-left: -950px;
+margin-top: -380px;
+}
+
+.card h1 {
+    margin: 20px 0;
+}
+.card:hover{
+ width: 300px;
+    height: 500px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-align: center;
+    transition: 0.5s;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.7)),
+        url(https://avatars.mds.yandex.net/i?id=98a175ea2c77e3458169cfebac0f52e12e663acf-5221784-images-thumbs&n=13);
+    background-size: cover;
+    background-position: center;
+}
+
+
